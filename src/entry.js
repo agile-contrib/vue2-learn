@@ -11,7 +11,8 @@ import './style/common.css';
  * 查看的时候，放开需要的部分就可以了
  */
 
-import App from './pages/basic.vue'; // 基础
+// import App from './pages/basic.vue'; // 基础
+import App from './pages/computed.vue'; // 计算属性和监听器
 
 //根对象
 new Vue({
