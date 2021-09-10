@@ -23,7 +23,7 @@ module.exports = {
             exclude: /node_modules/,
             loader: "babel-loader"
         }, {
-            test: /\.css$/,
+            test: /\.(css|scss)$/,
             use: ['vue-style-loader', 'css-loader', 'postcss-loader', './scss-loader.js']
         }, {
             test: /\.(png|jpg|jpeg|gif)$/,
