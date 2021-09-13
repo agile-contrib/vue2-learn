@@ -12,7 +12,8 @@ import './style/common.css';
  */
 
 // import App from './pages/basic.vue'; // 基础
-import App from './pages/computed.vue'; // 计算属性和监听器
+// import App from './pages/computed.vue'; // 计算属性和监听器
+import App from './pages/class-and-style.vue'; // Class 与 Style 绑定
 
 //根对象
 new Vue({
